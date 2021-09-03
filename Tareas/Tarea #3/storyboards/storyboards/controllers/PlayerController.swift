@@ -64,6 +64,7 @@ class PlayerController: UIViewController , UITableViewDataSource, UITableViewDel
         return tableViewCell
     }
     
+    // MARK: - Pass and Receive data
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "aux"{
             if let destVC = segue.destination as? UINavigationController ,
