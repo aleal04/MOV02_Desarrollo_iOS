@@ -1,0 +1,24 @@
+{
+  "name": "dogsImage",
+  "version": "0.0.10",
+  "summary": "Tarea 6 PODS",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aleal04/dogsImage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aleal04": "aleal@ultrapark.com"
+  },
+  "source": {
+    "git": "https://github.com/aleal04/dogsImage.git",
+    "tag": "0.0.10"
+  },
+  "swift_versions": "4.1",
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "Class/**/*",
+  "swift_version": "4.1"
+}

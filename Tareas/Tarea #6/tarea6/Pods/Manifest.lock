@@ -1,0 +1,21 @@
+PODS:
+  - dogsImage (0.0.10)
+
+DEPENDENCIES:
+  - dogsImage (from `https://github.com/aleal04/dogImage.git`)
+
+EXTERNAL SOURCES:
+  dogsImage:
+    :git: https://github.com/aleal04/dogImage.git
+
+CHECKOUT OPTIONS:
+  dogsImage:
+    :commit: cb9dc21bf935db0a88fe50989da28cb22757824b
+    :git: https://github.com/aleal04/dogImage.git
+
+SPEC CHECKSUMS:
+  dogsImage: c87c14d0da45d8503e1f22c5cd5f1a13a621e886
+
+PODFILE CHECKSUM: 8d4d4bc82760ed9edc1a597dccc5cebb42dcfc5c
+
+COCOAPODS: 1.11.2

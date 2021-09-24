@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325B5BCCED3482409F84F175 /* Pods_tarea6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0C4215E36243E030C7756B /* Pods_tarea6.framework */; };
+		C1A4438F26FB72AE00EDB5F1 /* tarea6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4438E26FB72AE00EDB5F1 /* tarea6App.swift */; };
+		C1A4439126FB72AE00EDB5F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4439026FB72AE00EDB5F1 /* ContentView.swift */; };
+		C1A4439326FB72B000EDB5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A4439226FB72B000EDB5F1 /* Assets.xcassets */; };
+		C1A4439626FB72B000EDB5F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A4439526FB72B000EDB5F1 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39CB7305D014D7241890B5C4 /* Pods-tarea6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarea6.release.xcconfig"; path = "Target Support Files/Pods-tarea6/Pods-tarea6.release.xcconfig"; sourceTree = "<group>"; };
+		5D0C4215E36243E030C7756B /* Pods_tarea6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tarea6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1F90259CAE16635CB37F6C /* Pods-tarea6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarea6.debug.xcconfig"; path = "Target Support Files/Pods-tarea6/Pods-tarea6.debug.xcconfig"; sourceTree = "<group>"; };
+		C1A4438B26FB72AE00EDB5F1 /* tarea6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarea6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A4438E26FB72AE00EDB5F1 /* tarea6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarea6App.swift; sourceTree = "<group>"; };
+		C1A4439026FB72AE00EDB5F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1A4439226FB72B000EDB5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1A4439526FB72B000EDB5F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1A4439726FB72B000EDB5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1A4438826FB72AE00EDB5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325B5BCCED3482409F84F175 /* Pods_tarea6.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329CBC6DB2068CA0691444C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D1F90259CAE16635CB37F6C /* Pods-tarea6.debug.xcconfig */,
+				39CB7305D014D7241890B5C4 /* Pods-tarea6.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A0A2A09D4EC725ED4935AA62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C4215E36243E030C7756B /* Pods_tarea6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1A4438226FB72AE00EDB5F1 = {
+			isa = PBXGroup;
+			children = (
+				C1A4438D26FB72AE00EDB5F1 /* tarea6 */,
+				C1A4438C26FB72AE00EDB5F1 /* Products */,
+				329CBC6DB2068CA0691444C2 /* Pods */,
+				A0A2A09D4EC725ED4935AA62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1A4438C26FB72AE00EDB5F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1A4438B26FB72AE00EDB5F1 /* tarea6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1A4438D26FB72AE00EDB5F1 /* tarea6 */ = {
+			isa = PBXGroup;
+			children = (
+				C1A4438E26FB72AE00EDB5F1 /* tarea6App.swift */,
+				C1A4439026FB72AE00EDB5F1 /* ContentView.swift */,
+				C1A4439226FB72B000EDB5F1 /* Assets.xcassets */,
+				C1A4439726FB72B000EDB5F1 /* Info.plist */,
+				C1A4439426FB72B000EDB5F1 /* Preview Content */,
+			);
+			path = tarea6;
+			sourceTree = "<group>";
+		};
+		C1A4439426FB72B000EDB5F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1A4439526FB72B000EDB5F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1A4438A26FB72AE00EDB5F1 /* tarea6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A4439A26FB72B000EDB5F1 /* Build configuration list for PBXNativeTarget "tarea6" */;
+			buildPhases = (
+				C11519BA84F998C57AD0440B /* [CP] Check Pods Manifest.lock */,
+				C1A4438726FB72AE00EDB5F1 /* Sources */,
+				C1A4438826FB72AE00EDB5F1 /* Frameworks */,
+				C1A4438926FB72AE00EDB5F1 /* Resources */,
+				0F31DD0B195330372C3848B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tarea6;
+			productName = tarea6;
+			productReference = C1A4438B26FB72AE00EDB5F1 /* tarea6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1A4438326FB72AE00EDB5F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C1A4438A26FB72AE00EDB5F1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = C1A4438626FB72AE00EDB5F1 /* Build configuration list for PBXProject "tarea6" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1A4438226FB72AE00EDB5F1;
+			productRefGroup = C1A4438C26FB72AE00EDB5F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1A4438A26FB72AE00EDB5F1 /* tarea6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1A4438926FB72AE00EDB5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A4439626FB72B000EDB5F1 /* Preview Assets.xcassets in Resources */,
+				C1A4439326FB72B000EDB5F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F31DD0B195330372C3848B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tarea6/Pods-tarea6-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tarea6/Pods-tarea6-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tarea6/Pods-tarea6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11519BA84F998C57AD0440B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tarea6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1A4438726FB72AE00EDB5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A4439126FB72AE00EDB5F1 /* ContentView.swift in Sources */,
+				C1A4438F26FB72AE00EDB5F1 /* tarea6App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1A4439826FB72B000EDB5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1A4439926FB72B000EDB5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1A4439B26FB72B000EDB5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1F90259CAE16635CB37F6C /* Pods-tarea6.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tarea6/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tarea6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenfotec.mov02.t06.tarea6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1A4439C26FB72B000EDB5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CB7305D014D7241890B5C4 /* Pods-tarea6.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tarea6/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tarea6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenfotec.mov02.t06.tarea6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1A4438626FB72AE00EDB5F1 /* Build configuration list for PBXProject "tarea6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A4439826FB72B000EDB5F1 /* Debug */,
+				C1A4439926FB72B000EDB5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A4439A26FB72B000EDB5F1 /* Build configuration list for PBXNativeTarget "tarea6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A4439B26FB72B000EDB5F1 /* Debug */,
+				C1A4439C26FB72B000EDB5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1A4438326FB72AE00EDB5F1 /* Project object */;
+}
