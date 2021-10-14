@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C150D90226FCCFD2006B871C /* UserComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = C150D90126FCCFD2006B871C /* UserComments.swift */; };
+		C174336526FBF9FC00B15952 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174336426FBF9FC00B15952 /* CommentsViewModel.swift */; };
+		C174336726FBFC7500B15952 /* RandomUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174336626FBFC7500B15952 /* RandomUserViewModel.swift */; };
+		C17E48B326F7F0C200131547 /* QuantityLikeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E48B226F7F0C200131547 /* QuantityLikeBarView.swift */; };
+		C181C2C326FE32EB009A4DC7 /* CommentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C181C2C226FE32EB009A4DC7 /* CommentItemView.swift */; };
+		C181C2C526FE33BE009A4DC7 /* UserItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C181C2C426FE33BE009A4DC7 /* UserItemView.swift */; };
+		C181C2C726FE505B009A4DC7 /* CommentBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C181C2C626FE505B009A4DC7 /* CommentBodyView.swift */; };
+		C185B39F26EFBDB2005C2294 /* cenfotec_gramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185B39E26EFBDB2005C2294 /* cenfotec_gramApp.swift */; };
+		C185B3A326EFBDB5005C2294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C185B3A226EFBDB5005C2294 /* Assets.xcassets */; };
+		C185B3A626EFBDB5005C2294 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C185B3A526EFBDB5005C2294 /* Preview Assets.xcassets */; };
+		C185B3B126EFC5F3005C2294 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185B3B026EFC5F3005C2294 /* DashboardView.swift */; };
+		C185B3B426EFC7D8005C2294 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185B3B326EFC7D8005C2294 /* NavView.swift */; };
+		C185B3B826EFE6EA005C2294 /* PersonaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185B3B726EFE6EA005C2294 /* PersonaContentView.swift */; };
+		C185B3BA26EFF7F5005C2294 /* PersonLikeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185B3B926EFF7F5005C2294 /* PersonLikeBarView.swift */; };
+		C19ACE78270CE67400C79867 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ACE77270CE67400C79867 /* StorageService.swift */; };
+		C19ACE7A270CF54F00C79867 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ACE79270CF54F00C79867 /* Extensions.swift */; };
+		C19ACE7C270D00EB00C79867 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ACE7B270D00EB00C79867 /* AuthService.swift */; };
+		C19ACE7E270D13C500C79867 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ACE7D270D13C500C79867 /* User.swift */; };
+		C19E921C270A574D0081C2FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C19E921B270A574D0081C2FA /* GoogleService-Info.plist */; };
+		C1A3A42927121BA2009A3D49 /* AddPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A3A42827121BA2009A3D49 /* AddPostsView.swift */; };
+		C1A4922627135EEA0091ED79 /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4922527135EEA0091ED79 /* PostsModel.swift */; };
+		C1A4922A271363B20091ED79 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A49229271363B20091ED79 /* ProfileService.swift */; };
+		C1A4922C271372830091ED79 /* HeaderPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4922B271372830091ED79 /* HeaderPostView.swift */; };
+		C1A4922E271373030091ED79 /* BodyPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4922D271373030091ED79 /* BodyPostView.swift */; };
+		C1A492302713776E0091ED79 /* OptionsPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A4922F2713776E0091ED79 /* OptionsPostView.swift */; };
+		C1A49232271379150091ED79 /* MainPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A49231271379150091ED79 /* MainPostView.swift */; };
+		C1A62C2626F6F4D600591ED5 /* FormFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A62C2526F6F4D600591ED5 /* FormFieldView.swift */; };
+		C1A62C2826F7009300591ED5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A62C2726F7009300591ED5 /* SignUpView.swift */; };
+		C1A62C2A26F7035200591ED5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A62C2926F7035200591ED5 /* SignInView.swift */; };
+		C1A62C2D26F7058300591ED5 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A62C2C26F7058300591ED5 /* ImagePicker.swift */; };
+		C1AAEE62271788CF00D9369B /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAEE61271788CF00D9369B /* EditProfileView.swift */; };
+		C1AD52A4270FA76C00A23653 /* UserSessiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AD52A3270FA76C00A23653 /* UserSessiom.swift */; };
+		C1AD52A8270FBF1000A23653 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AD52A7270FBF1000A23653 /* HomeView.swift */; };
+		C1AF2D3527050ECA009FB278 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF2D3427050ECA009FB278 /* Comments.swift */; };
+		C1AFA9742706690E004039EC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFA9732706690E004039EC /* ProfileView.swift */; };
+		C1AFA976270671D7004039EC /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFA975270671D7004039EC /* ProfileHeaderView.swift */; };
+		C1BC95222712A21700155C93 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC95212712A21700155C93 /* PostService.swift */; };
+		EB3DB7DD0201A96585202591 /* Pods_cenfotec_gram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0525FE0A11D2EDD692E33D1 /* Pods_cenfotec_gram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63E304CC48A83FA9D420A345 /* Pods-cenfotec-gram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cenfotec-gram.release.xcconfig"; path = "Target Support Files/Pods-cenfotec-gram/Pods-cenfotec-gram.release.xcconfig"; sourceTree = "<group>"; };
+		C150D90126FCCFD2006B871C /* UserComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserComments.swift; sourceTree = "<group>"; };
+		C174336426FBF9FC00B15952 /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		C174336626FBFC7500B15952 /* RandomUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserViewModel.swift; sourceTree = "<group>"; };
+		C17E48B226F7F0C200131547 /* QuantityLikeBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityLikeBarView.swift; sourceTree = "<group>"; };
+		C181C2C226FE32EB009A4DC7 /* CommentItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentItemView.swift; sourceTree = "<group>"; };
+		C181C2C426FE33BE009A4DC7 /* UserItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemView.swift; sourceTree = "<group>"; };
+		C181C2C626FE505B009A4DC7 /* CommentBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentBodyView.swift; sourceTree = "<group>"; };
+		C185B39B26EFBDB2005C2294 /* cenfotec-gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cenfotec-gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C185B39E26EFBDB2005C2294 /* cenfotec_gramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cenfotec_gramApp.swift; sourceTree = "<group>"; };
+		C185B3A226EFBDB5005C2294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C185B3A526EFBDB5005C2294 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C185B3A726EFBDB5005C2294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C185B3B026EFC5F3005C2294 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		C185B3B326EFC7D8005C2294 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		C185B3B726EFE6EA005C2294 /* PersonaContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaContentView.swift; sourceTree = "<group>"; };
+		C185B3B926EFF7F5005C2294 /* PersonLikeBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonLikeBarView.swift; sourceTree = "<group>"; };
+		C19ACE77270CE67400C79867 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		C19ACE79270CF54F00C79867 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C19ACE7B270D00EB00C79867 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C19ACE7D270D13C500C79867 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C19E921B270A574D0081C2FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1A3A42827121BA2009A3D49 /* AddPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostsView.swift; sourceTree = "<group>"; };
+		C1A4922527135EEA0091ED79 /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
+		C1A49229271363B20091ED79 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		C1A4922B271372830091ED79 /* HeaderPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderPostView.swift; sourceTree = "<group>"; };
+		C1A4922D271373030091ED79 /* BodyPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPostView.swift; sourceTree = "<group>"; };
+		C1A4922F2713776E0091ED79 /* OptionsPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsPostView.swift; sourceTree = "<group>"; };
+		C1A49231271379150091ED79 /* MainPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPostView.swift; sourceTree = "<group>"; };
+		C1A62C2526F6F4D600591ED5 /* FormFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldView.swift; sourceTree = "<group>"; };
+		C1A62C2726F7009300591ED5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C1A62C2926F7035200591ED5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		C1A62C2C26F7058300591ED5 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C1AAEE61271788CF00D9369B /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		C1AD52A3270FA76C00A23653 /* UserSessiom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessiom.swift; sourceTree = "<group>"; };
+		C1AD52A7270FBF1000A23653 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C1AF2D3427050ECA009FB278 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		C1AFA9732706690E004039EC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C1AFA975270671D7004039EC /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		C1BC95212712A21700155C93 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		D0525FE0A11D2EDD692E33D1 /* Pods_cenfotec_gram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cenfotec_gram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9658966C9EC4E54ED791BBE /* Pods-cenfotec-gram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cenfotec-gram.debug.xcconfig"; path = "Target Support Files/Pods-cenfotec-gram/Pods-cenfotec-gram.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C185B39826EFBDB2005C2294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3DB7DD0201A96585202591 /* Pods_cenfotec_gram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7391CC32709717DCDE4D3BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0525FE0A11D2EDD692E33D1 /* Pods_cenfotec_gram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17E786C27054010007C7744 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C1A62C2526F6F4D600591ED5 /* FormFieldView.swift */,
+				C1A62C2726F7009300591ED5 /* SignUpView.swift */,
+				C1A62C2926F7035200591ED5 /* SignInView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C17E786D2705402F007C7744 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C185B3B026EFC5F3005C2294 /* DashboardView.swift */,
+				C185B3B326EFC7D8005C2294 /* NavView.swift */,
+				C185B3B726EFE6EA005C2294 /* PersonaContentView.swift */,
+				C185B3B926EFF7F5005C2294 /* PersonLikeBarView.swift */,
+				C17E48B226F7F0C200131547 /* QuantityLikeBarView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C181C2C126FE32D9009A4DC7 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				C181C2C226FE32EB009A4DC7 /* CommentItemView.swift */,
+				C181C2C426FE33BE009A4DC7 /* UserItemView.swift */,
+				C181C2C626FE505B009A4DC7 /* CommentBodyView.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		C185B39226EFBDB2005C2294 = {
+			isa = PBXGroup;
+			children = (
+				C185B39D26EFBDB2005C2294 /* cenfotec-gram */,
+				C185B39C26EFBDB2005C2294 /* Products */,
+				CEE84D03CA32D98E5785E4D5 /* Pods */,
+				B7391CC32709717DCDE4D3BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C185B39C26EFBDB2005C2294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C185B39B26EFBDB2005C2294 /* cenfotec-gram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C185B39D26EFBDB2005C2294 /* cenfotec-gram */ = {
+			isa = PBXGroup;
+			children = (
+				C19ACE76270CE63F00C79867 /* Services */,
+				C19E921B270A574D0081C2FA /* GoogleService-Info.plist */,
+				C1A62C2B26F7053300591ED5 /* Utilities */,
+				C185B3AF26EFBFF4005C2294 /* View */,
+				C185B3AE26EFBFEC005C2294 /* ViewModel */,
+				C185B3AD26EFBFE5005C2294 /* Model */,
+				C185B39E26EFBDB2005C2294 /* cenfotec_gramApp.swift */,
+				C185B3A226EFBDB5005C2294 /* Assets.xcassets */,
+				C185B3A726EFBDB5005C2294 /* Info.plist */,
+				C185B3A426EFBDB5005C2294 /* Preview Content */,
+			);
+			path = "cenfotec-gram";
+			sourceTree = "<group>";
+		};
+		C185B3A426EFBDB5005C2294 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C185B3A526EFBDB5005C2294 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C185B3AD26EFBFE5005C2294 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C150D90126FCCFD2006B871C /* UserComments.swift */,
+				C1AF2D3427050ECA009FB278 /* Comments.swift */,
+				C19ACE7D270D13C500C79867 /* User.swift */,
+				C1A4922527135EEA0091ED79 /* PostsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C185B3AE26EFBFEC005C2294 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C19E9218270A283C0081C2FA /* Comments */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C185B3AF26EFBFF4005C2294 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1A3A42727121B90009A3D49 /* Posts */,
+				C1AD52A6270FBEEF00A23653 /* Home */,
+				C1AFA972270668EA004039EC /* Profile */,
+				C17E786D2705402F007C7744 /* Dashboard */,
+				C17E786C27054010007C7744 /* Login */,
+				C181C2C126FE32D9009A4DC7 /* Comments */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C19ACE76270CE63F00C79867 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C19ACE77270CE67400C79867 /* StorageService.swift */,
+				C19ACE7B270D00EB00C79867 /* AuthService.swift */,
+				C1AD52A3270FA76C00A23653 /* UserSessiom.swift */,
+				C1BC95212712A21700155C93 /* PostService.swift */,
+				C1A49229271363B20091ED79 /* ProfileService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C19E9218270A283C0081C2FA /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				C174336426FBF9FC00B15952 /* CommentsViewModel.swift */,
+				C174336626FBFC7500B15952 /* RandomUserViewModel.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		C1A3A42727121B90009A3D49 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				C1A3A42827121BA2009A3D49 /* AddPostsView.swift */,
+				C1A4922B271372830091ED79 /* HeaderPostView.swift */,
+				C1A4922D271373030091ED79 /* BodyPostView.swift */,
+				C1A4922F2713776E0091ED79 /* OptionsPostView.swift */,
+				C1A49231271379150091ED79 /* MainPostView.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		C1A62C2B26F7053300591ED5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C1A62C2C26F7058300591ED5 /* ImagePicker.swift */,
+				C19ACE79270CF54F00C79867 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C1AD52A6270FBEEF00A23653 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C1AD52A7270FBF1000A23653 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C1AFA972270668EA004039EC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C1AFA9732706690E004039EC /* ProfileView.swift */,
+				C1AFA975270671D7004039EC /* ProfileHeaderView.swift */,
+				C1AAEE61271788CF00D9369B /* EditProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CEE84D03CA32D98E5785E4D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9658966C9EC4E54ED791BBE /* Pods-cenfotec-gram.debug.xcconfig */,
+				63E304CC48A83FA9D420A345 /* Pods-cenfotec-gram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C185B39A26EFBDB2005C2294 /* cenfotec-gram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C185B3AA26EFBDB5005C2294 /* Build configuration list for PBXNativeTarget "cenfotec-gram" */;
+			buildPhases = (
+				C2C73A012E92717E59795332 /* [CP] Check Pods Manifest.lock */,
+				C185B39726EFBDB2005C2294 /* Sources */,
+				C185B39826EFBDB2005C2294 /* Frameworks */,
+				C185B39926EFBDB2005C2294 /* Resources */,
+				158B9E2BBF2FA0D16DEA2A5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cenfotec-gram";
+			productName = "cenfotec-gram";
+			productReference = C185B39B26EFBDB2005C2294 /* cenfotec-gram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C185B39326EFBDB2005C2294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C185B39A26EFBDB2005C2294 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = C185B39626EFBDB2005C2294 /* Build configuration list for PBXProject "cenfotec-gram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C185B39226EFBDB2005C2294;
+			productRefGroup = C185B39C26EFBDB2005C2294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C185B39A26EFBDB2005C2294 /* cenfotec-gram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C185B39926EFBDB2005C2294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C185B3A626EFBDB5005C2294 /* Preview Assets.xcassets in Resources */,
+				C185B3A326EFBDB5005C2294 /* Assets.xcassets in Resources */,
+				C19E921C270A574D0081C2FA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		158B9E2BBF2FA0D16DEA2A5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cenfotec-gram/Pods-cenfotec-gram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cenfotec-gram/Pods-cenfotec-gram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cenfotec-gram/Pods-cenfotec-gram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C73A012E92717E59795332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cenfotec-gram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C185B39726EFBDB2005C2294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AD52A8270FBF1000A23653 /* HomeView.swift in Sources */,
+				C19ACE7E270D13C500C79867 /* User.swift in Sources */,
+				C174336726FBFC7500B15952 /* RandomUserViewModel.swift in Sources */,
+				C19ACE78270CE67400C79867 /* StorageService.swift in Sources */,
+				C174336526FBF9FC00B15952 /* CommentsViewModel.swift in Sources */,
+				C17E48B326F7F0C200131547 /* QuantityLikeBarView.swift in Sources */,
+				C1A3A42927121BA2009A3D49 /* AddPostsView.swift in Sources */,
+				C185B3B426EFC7D8005C2294 /* NavView.swift in Sources */,
+				C1A4922E271373030091ED79 /* BodyPostView.swift in Sources */,
+				C181C2C326FE32EB009A4DC7 /* CommentItemView.swift in Sources */,
+				C19ACE7C270D00EB00C79867 /* AuthService.swift in Sources */,
+				C1A4922A271363B20091ED79 /* ProfileService.swift in Sources */,
+				C1A49232271379150091ED79 /* MainPostView.swift in Sources */,
+				C1A62C2626F6F4D600591ED5 /* FormFieldView.swift in Sources */,
+				C1AFA976270671D7004039EC /* ProfileHeaderView.swift in Sources */,
+				C181C2C526FE33BE009A4DC7 /* UserItemView.swift in Sources */,
+				C1AD52A4270FA76C00A23653 /* UserSessiom.swift in Sources */,
+				C1A62C2826F7009300591ED5 /* SignUpView.swift in Sources */,
+				C1AAEE62271788CF00D9369B /* EditProfileView.swift in Sources */,
+				C1A62C2A26F7035200591ED5 /* SignInView.swift in Sources */,
+				C185B3B126EFC5F3005C2294 /* DashboardView.swift in Sources */,
+				C1A492302713776E0091ED79 /* OptionsPostView.swift in Sources */,
+				C1AF2D3527050ECA009FB278 /* Comments.swift in Sources */,
+				C181C2C726FE505B009A4DC7 /* CommentBodyView.swift in Sources */,
+				C1A62C2D26F7058300591ED5 /* ImagePicker.swift in Sources */,
+				C150D90226FCCFD2006B871C /* UserComments.swift in Sources */,
+				C1A4922627135EEA0091ED79 /* PostsModel.swift in Sources */,
+				C1A4922C271372830091ED79 /* HeaderPostView.swift in Sources */,
+				C185B39F26EFBDB2005C2294 /* cenfotec_gramApp.swift in Sources */,
+				C19ACE7A270CF54F00C79867 /* Extensions.swift in Sources */,
+				C1BC95222712A21700155C93 /* PostService.swift in Sources */,
+				C1AFA9742706690E004039EC /* ProfileView.swift in Sources */,
+				C185B3B826EFE6EA005C2294 /* PersonaContentView.swift in Sources */,
+				C185B3BA26EFF7F5005C2294 /* PersonLikeBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C185B3A826EFBDB5005C2294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C185B3A926EFBDB5005C2294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C185B3AB26EFBDB5005C2294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9658966C9EC4E54ED791BBE /* Pods-cenfotec-gram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"cenfotec-gram/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "cenfotec-gram/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cenfotec.mov02.project.cenfotec-gram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C185B3AC26EFBDB5005C2294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E304CC48A83FA9D420A345 /* Pods-cenfotec-gram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"cenfotec-gram/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "cenfotec-gram/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cenfotec.mov02.project.cenfotec-gram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C185B39626EFBDB2005C2294 /* Build configuration list for PBXProject "cenfotec-gram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C185B3A826EFBDB5005C2294 /* Debug */,
+				C185B3A926EFBDB5005C2294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C185B3AA26EFBDB5005C2294 /* Build configuration list for PBXNativeTarget "cenfotec-gram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C185B3AB26EFBDB5005C2294 /* Debug */,
+				C185B3AC26EFBDB5005C2294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C185B39326EFBDB2005C2294 /* Project object */;
+}
