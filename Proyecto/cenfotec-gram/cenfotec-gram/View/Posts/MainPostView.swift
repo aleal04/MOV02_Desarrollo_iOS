@@ -32,7 +32,10 @@ struct MainPostView: View {
         .navigationTitle("Cenfotec-gram")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear{
-            self.profileService.loadUserPost(userId: Auth.auth().currentUser!.uid)
+            if(session.session != nil){
+                self.profileService.loadUserPost(userId: Auth.auth().currentUser!.uid)
+            }
+            
         }
     }
 }

@@ -63,7 +63,6 @@ struct SignInView: View {
                 
                 VStack(alignment: .leading)  {
                     Text("Cenfotec-gram").font(.system(size: 32 , weight: .heavy))
-                    
                 }
                     
                     FormFieldView(value: $email , placeholder: "Correo electronico")
@@ -100,7 +99,5 @@ struct SignInView: View {
                 }
             }.padding()
         }
-    
-        
     }
 }

@@ -135,9 +135,20 @@ struct EditProfileView: View {
                 .alert(isPresented: $showAlert){
                     Alert(title: Text(alertTitle) , message: Text(error) , dismissButton: .default(Text("Ok")))
                 }
+                .font(.system(size: 17))
+                .frame(minWidth:0 , maxWidth: .infinity , maxHeight: 10)
+                .font(.title)
+                .foregroundColor(.black)
+                .padding()
+                .overlay(
+                    RoundedRectangle(cornerRadius: 5)
+                        .stroke(Color.black, lineWidth: 1)
+                )
+                .padding(.horizontal)
                 
                 
             }
+            .padding(5)
         }.navigationTitle(session.session!.username)
         .sheet(isPresented: $showingImagePicker,
                 onDismiss: loadImage){

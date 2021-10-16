@@ -17,19 +17,16 @@ struct CommentItemView: View {
                 UserItemView(imageURL: item.picture?.thumbnail ?? "sdsd")
                     .frame(alignment: .topLeading)
                 
-                VStack(alignment: .leading , spacing: 10){
-                    HStack(spacing:0){
-                        Text(item.name?.first.lowercased() ?? "")
-                            .bold()
-                            .font(.system(size: 14))
-                            
-                        + Text(" ")
-                            
-                        + Text(randomComments.comments.contents?.quotes?.first?.quote ?? "  Prueba")
+                VStack(alignment: .leading){
+                    Text(item.name?.first.lowercased() ?? "")
+                        .bold()
                         .font(.system(size: 14))
-                    }
-                    .padding(5)
+                    
+                        
+                    Text(randomComments.comments.contents?.quotes?.first?.quote ?? "")
+                    .font(.system(size: 14))
                 }
+                Spacer()
             }
         }
     }
